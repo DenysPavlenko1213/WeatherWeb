@@ -1,0 +1,44 @@
+﻿body {
+    background-image: url('https://getwallpapers.com/wallpaper/full/0/3/1/90073.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center{
+    text-align:center;
+}
+form {
+    margin: 100px;
+}
+form input{
+    border: 0px;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    background-color: #ffffff70;
+}
+form button{
+    border: 0px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 35px;
+}
+form button:hover{
+    background-color: white;
+    color: #ff0000;
+}
+form input::placeholder{
+    color: white;
+}
+.search-result {
+    display: block;
+    max-height: 100%;
+    border-radius: 25px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: #ffffff70;
+}

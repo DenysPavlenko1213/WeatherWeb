@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather</title>
+</head>
+<body>
+    <form class="center">
+        <input id="inputPanel" type="text" placeholder="Enter City" required/><br /><br />
+        <button id="searchButton" type="submit" onclick="GetWeatherData()">Search</button>
+    </form>
+    <div class="center">
+        <div class="search-result">
+            <h2 id="CityText">City</h2>
+            <h2 id="TemperatureText">20</h2>
+        </div>
+    </div>
+    <footer>
+        <hr />
+        <a href="#">content</a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
